@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const video = document.getElementById('video');
-    const stream1Src = 'your_custom_rtmp_link_hd.m3u8'; // Replace with your actual HD m3u8 link
-    const stream2Src = 'your_custom_rtmp_link_sd.m3u8'; // Replace with your actual SD m3u8 link
+    const stream1Src = 'https://vcpout-sf01-altnetro.internetmultimediaonline.org/vcp/966d3657/playlist.m3u8'; // HD stream link
+    const stream2Src = 'https://vcpout-sf01-altnetro.internetmultimediaonline.org/vcp/966d3658/playlist.m3u8'; // SD stream link
 
     const username = sessionStorage.getItem('username');
 

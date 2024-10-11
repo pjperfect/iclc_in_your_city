@@ -1,9 +1,10 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Predefined users and passwords
     const users = {
-        'user1': 'password1',
-        'user2': 'password2',
-        'user3': 'password3'
+        'ce_nairobi': '63115',
+        'ce_mombasa': '70659',
+        'ce_thika': '97618',
+        'ce_kisumu': '80914'
     };
 
     // Login functionality
@@ -39,8 +40,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // RTMP functionality
     const video = document.getElementById('video');
-    const stream1Src = 'your_hd_rtmp_link.m3u8'; // Replace with your actual HD m3u8 link
-    const stream2Src = 'your_sd_rtmp_link.m3u8'; // Replace with your actual SD m3u8 link
+    const stream1Src = 'https://vcpout-sf01-altnetro.internetmultimediaonline.org/vcp/966d3657/playlist.m3u8'; // HD stream link
+    const stream2Src = 'https://vcpout-sf01-altnetro.internetmultimediaonline.org/vcp/966d3658/playlist.m3u8'; // SD stream link
     const username = sessionStorage.getItem('username');
 
     if (username) {
